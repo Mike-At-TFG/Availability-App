@@ -5,6 +5,7 @@ Pull in data for rooms and people, display availability on screens.
 Based on the Microsoft Graph Tutorial for Node:
 https://docs.microsoft.com/en-us/graph/tutorials/javascript?tutorial
 
+#### You will need a GitHub Account to quick deploy to Azure
 #### You will need to add a file for the configuration, there is a config-example.js that can be changed to make this available in your tenant. Create a NEW FILE called config.js or rename config-example to config
 
 This is a work in progress...
@@ -54,9 +55,9 @@ This is a work in progress...
 
 
 ## Open your config.js file
-### You will need to uncomment out (remove the \\) from the clientid and redirect url
+### You will need to uncomment out (remove the "\\" ) from the clientid and redirect url
 ### Input the AppID in the "" for client ID
-### Input the app url you created for the redirect url 
+### Input the app url you created for the redirect url (No this is not a real APPID)
 ![input client id and redirect url](https://github.com/FSi-Strategies/Availability-App/blob/master/images/config.png?raw=true)
 
 
