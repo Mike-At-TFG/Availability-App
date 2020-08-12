@@ -37,7 +37,7 @@ This is a work in progress...
 
 ### Fill in the following information 
 #### Select a Resource Group or create a new one
-#### Create a name for the web address (i.e. availabilityFSi, FSiMeetingRoom)
+#### Create a name for the web address (i.e. availabilityFSi, FSiMeetingRoom) - Remember the name you will need it
 #### Runtime Stack should be set to Node 10.14
 
 ![input correct settings for web app](https://github.com/FSi-Strategies/Availability-App/blob/master/images/AppCreation2.png?raw=true)
@@ -47,3 +47,14 @@ This is a work in progress...
 ![Select Sku and then review and create webapp](https://github.com/FSi-Strategies/Availability-App/blob/master/images/AppCreation3.PNG?raw=true)
 
 #### Select Create and then navigate to the resource once it is completed.
+
+#### Select the Copy the App ID you will need this
+![select copy on app ID](https://github.com/FSi-Strategies/Availability-App/blob/master/images/ApplicationID.png?raw=true)
+
+
+
+## Open your config.js file
+### You will need to uncomment out (remove the \\) from the clientid and redirect url
+### Input the AppID in the "" for client ID
+### Input the app url you created for the redirect url 
+![input client id and redirect url](https://github.com/FSi-Strategies/Availability-App/blob/master/images/config.png?raw=true)
