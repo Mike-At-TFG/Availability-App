@@ -58,3 +58,16 @@ This is a work in progress...
 ### Input the AppID in the "" for client ID
 ### Input the app url you created for the redirect url 
 ![input client id and redirect url](https://github.com/FSi-Strategies/Availability-App/blob/master/images/config.png?raw=true)
+
+
+## Go back to App Registrations (Azure Active Directory) 
+### Select your app that you created
+### Select Authentication > Add A Platform > Web
+![Authentication settings, add a platform, select web](https://github.com/FSi-Strategies/Availability-App/blob/master/images/AddRedirect.PNG?raw=true)
+
+### Fill out / Select the following:
+#### Redirect URL (Azure WebURL for earlier)
+#### Select both Access Token and ID Token
+#### Select Configure
+![enter redirect url, select token radios, select configure](https://github.com/FSi-Strategies/Availability-App/blob/master/images/Redirect.PNG?raw=true)
+
