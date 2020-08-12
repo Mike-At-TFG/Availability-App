@@ -12,5 +12,5 @@ This is a work in progress...
 Start with logging into the azure portal (portal.azure.com)
 
 Navigate to Azure Active Directory > Application Registration > New Registration
-![App Registration](images/AppRegistrations.png)
+![App Registration](https://github.com/FSi-Strategies/Availability-App/blob/master/images/App%20Registrations.png?raw=true)
 
