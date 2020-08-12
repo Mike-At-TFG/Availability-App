@@ -1,0 +1,26 @@
+{
+  "name": "meetingroom",
+  "version": "2.0.0",
+  "description": "Free Busy Application, Using Microsoft GRAPH API, Based on microsoft Graph tutorial for NPM",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FSi-Strategies/MeetingRoom.git"
+  },
+  "author": "John Firth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FSi-Strategies/MeetingRoom/issues"
+  },
+  "homepage": "https://github.com/FSi-Strategies/MeetingRoom#readme"
+}
