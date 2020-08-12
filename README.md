@@ -72,3 +72,26 @@ This is a work in progress...
 #### Select Configure
 ![enter redirect url, select token radios, select configure](https://github.com/FSi-Strategies/Availability-App/blob/master/images/Redirect.PNG?raw=true)
 
+## Deploy the code
+#### Navigate back to your application (App Service > NAME OF YOUR APP)
+#### Select Deployment Center
+#### Select GitHub
+![deploy app, select github](https://github.com/FSi-Strategies/Availability-App/blob/master/images/githubselect.PNG?raw=true)
+
+#### Select App Service Build Service
+![select service](https://github.com/FSi-Strategies/Availability-App/blob/master/images/AppServiceBuild.png?raw=true)
+#### Select Continue
+
+#### Select the correct settings 
+##### You or your organization 
+##### Repository (Availability App)
+##### Branch (Likely Master)
+
+![input git information](https://github.com/FSi-Strategies/Availability-App/blob/master/images/FSiConfigureGit.PNG?raw=true)
+
+#### Select continue
+#### Select Finish
+![select finish](https://github.com/FSi-Strategies/Availability-App/blob/master/images/deployApp.PNG?raw=true)
+
+# YOU HAVE NOW DEPLOYED THE APP
+## Go to the web address and login! (or use edge and SSO in)
