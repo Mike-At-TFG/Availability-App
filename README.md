@@ -28,3 +28,22 @@ This is a work in progress...
 
 
 ![Select register at the bottom of the page, leave the url empty](https://github.com/FSi-Strategies/Availability-App/blob/master/images/Register.PNG?raw=true)
+
+
+## Setup the Azure Web App
+
+### In the azure portal, go to App Services > New
+![Create new azure web app](https://github.com/FSi-Strategies/Availability-App/blob/master/images/AppCreation1.png?raw=true)
+
+### Fill in the following information 
+#### Select a Resource Group or create a new one
+#### Create a name for the web address (i.e. availabilityFSi, FSiMeetingRoom)
+#### Runtime Stack should be set to Node 10.14
+
+![input correct settings for web app](https://github.com/FSi-Strategies/Availability-App/blob/master/images/AppCreation2.png?raw=true)
+
+
+#### Select the Sku and Size for the machine (HINT: There are free skus and other dev options the default sku is around $80 per month)
+![Select Sku and then review and create webapp](https://github.com/FSi-Strategies/Availability-App/blob/master/images/AppCreation3.PNG?raw=true)
+
+#### Select Create and then navigate to the resource once it is completed.
