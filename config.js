@@ -1,10 +1,10 @@
 const msalConfig = {
   auth: {
     //Uncomment out the 2 sectiosn below
-    //  get app id from newly created app.
-    // clientId: 'STRING GOES HERE FROM AZURE ENTERPRISE APPS',
+    //get app id from newly created app.
+    clientId: "bd42a7ad-1605-4fd7-94a9-f539fad75576",
     //input your webURL from your web deployment (example.azurewebsites.net)
-    //redirectUri: "http://localhost:8080",
+    redirectUri: "https://tfgmeetingapp.azurewebsites.net",
   },
   cache: {
     cacheLocation: "sessionStorage",
